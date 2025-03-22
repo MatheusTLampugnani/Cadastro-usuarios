@@ -1,12 +1,29 @@
-# React + Vite
+### **Explicação da Atividade**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta atividade consiste no desenvolvimento de uma aplicação web em **React** utilizando o **Vite** para criação rápida do projeto. O objetivo é criar um sistema de **cadastro de usuários** com navegação entre diferentes páginas usando o **React Router**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Funcionalidades Principais**  
 
-## Expanding the ESLint configuration
+**Navegação com React Router**:  
+- `/` → Página inicial com botões para cadastro e lista de usuários.  
+- `/cadastro` → Página com um formulário para cadastrar novos usuários.  
+- `/sucesso` → Página de confirmação após o cadastro.  
+- `/usuarios` → Página que exibe uma lista de usuários cadastrados.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Formulário de Cadastro com Validação**:  
+- O usuário deve preencher **nome, e-mail, senha e confirmação de senha**.  
+- Todos os campos são obrigatórios.  
+- A senha e a confirmação devem ser **iguais**.  
+- Se os dados estiverem corretos, o usuário é salvo e redirecionado para a tela de sucesso.  
+
+**Lista de Usuários com Dados Mocados**:  
+- A exibição de usuários cadastrados utiliza um estado local (sem banco de dados ou API).  
+
+**Estilização com Bootstrap**:  
+- A interface usa **Bootstrap** para um design responsivo e intuitivo.  
+- Componentes estilizados como **cards, botões arredondados e alertas** para mensagens de erro.  
+
+**Botão "Voltar" na Tela de Cadastro**:  
+- Permite que o usuário retorne à página inicial com mais facilidade.  
