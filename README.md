@@ -23,7 +23,4 @@ Esta atividade consiste no desenvolvimento de uma aplicação web em **React** u
 
 **Estilização com Bootstrap**:  
 - A interface usa **Bootstrap** para um design responsivo e intuitivo.  
-- Componentes estilizados como **cards, botões arredondados e alertas** para mensagens de erro.  
-
-**Botão "Voltar" na Tela de Cadastro**:  
-- Permite que o usuário retorne à página inicial com mais facilidade.  
+- Componentes estilizados como **cards, botões arredondados e alertas** para mensagens de erro.
